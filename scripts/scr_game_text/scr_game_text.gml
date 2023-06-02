@@ -20,6 +20,12 @@ switch(_text_id) {
 	
 	break;
 	
+	case "teste":
+	scr_text("É dessa forma que o texto está atualmente.", "narrador");
+	scr_text("Pressione a tecla ENTER para fechar o jogo", "narrador");
+	
+	break;
+	
 	//case identifica como caso ocorra a interação
 	case "lenny":
 	scr_text("Bom dia Lenny.", "player");

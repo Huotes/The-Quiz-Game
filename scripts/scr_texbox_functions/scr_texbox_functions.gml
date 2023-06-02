@@ -24,7 +24,7 @@ function scr_set_defaults_for_text() {
 	txtb_spr[page_number] = spr_textbox;
 	speaker_sprite[page_number] = noone;
 	speaker_side[page_number] = 1;
-	snd[page_number] = voz_player_single_v2;
+	snd[page_number] = Retro_Single_v2_wav;
 }
 
 //-------------------VFX dos textos-------------------\\
@@ -130,7 +130,8 @@ function scr_text(_text){
 		  
 		   //narrador
 		   case "narrador":
-		   txtb_spr[page_number] = spr_textbox_black;
+		   txtb_spr[page_number] = spr_textbox;
+		   snd[page_number] = Retro_Single_v4_wav;
 		   break;
 		   
 		   case "athos":
